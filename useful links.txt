@@ -1,0 +1,2 @@
+for web safe font concept and font name list 
+https://blog.hubspot.com/website/web-safe-html-css-fonts
