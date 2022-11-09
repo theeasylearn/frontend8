@@ -1,0 +1,4 @@
+HTML
+
+1) create ICC T20 world cup point table using table tag 
+2) create your own resume using all html tag you have learnt so far. 
