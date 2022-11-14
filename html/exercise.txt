@@ -2,3 +2,14 @@ HTML
 
 1) create ICC T20 world cup point table using table tag 
 2) create your own resume using all html tag you have learnt so far. 
+
+2) develop html page for forgot password
+    input email 
+3) develop html page for checkout process as per below design 
+    https://www.oberlo.com/media/1604489891-shopify-checkout-2-1024x611.jpg?fm=webp&w=1824&fit=max
+
+4) develop html page for shaadi.com as per below design
+https://www.shaadi.com/
+
+5) develop html page for https://www.monsterindia.com/
+as per https://www.monsterindia.com/
