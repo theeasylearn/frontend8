@@ -3,3 +3,7 @@ https://blog.hubspot.com/website/web-safe-html-css-fonts
 
 for image and icon 
 https://www.iconfinder.com
+
+for html entities list 
+https://www.freeformatter.com/html-entities.html
+
