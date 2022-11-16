@@ -7,3 +7,11 @@ https://www.iconfinder.com
 for html entities list 
 https://www.freeformatter.com/html-entities.html
 
+
+to detect html 5 support online 
+https://html5test.com/
+
+to check tag/css  support in different web browser
+https://caniuse.com 
+
+
