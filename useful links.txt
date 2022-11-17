@@ -15,3 +15,10 @@ to check tag/css  support in different web browser
 https://caniuse.com 
 
 
+to convert one file format into another file format 
+online-convert.com
+
+for loading randome images in img tag use 
+http://picsum.photos
+example 
+<img src="http://picsum.photos/303" alt="">
