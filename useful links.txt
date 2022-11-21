@@ -22,3 +22,6 @@ for loading randome images in img tag use
 http://picsum.photos
 example 
 <img src="http://picsum.photos/303" alt="">
+
+for web fonts 
+https://fonts.google.com/
