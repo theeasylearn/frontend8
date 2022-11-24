@@ -1,0 +1,56 @@
+*
+{
+    margin:0px;
+    padding:0px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    font-size: 16px;
+}
+body 
+{
+    background-color: aliceblue;
+}
+h1 
+{
+    font-size: 2rem;
+}
+h2 
+{
+    font-size: 1.8rem;
+}
+h3 
+{
+    font-size: 1.6rem;
+}
+#menu
+{
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:20px;
+    padding-bottom:20px;
+    top:0px;
+    left: 0px;
+    position: sticky;
+}
+#menu>h1 
+{
+    color:white;
+    text-transform: uppercase;
+}
+#menu>ul 
+{
+    display: flex;
+    list-style-type:none;
+}
+#menu>ul>li
+{
+    margin-right: 20px;
+}
+#menu>ul>li>a:link 
+{
+    color:white;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
