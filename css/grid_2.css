@@ -1,0 +1,48 @@
+*
+{
+    margin:0px;
+    padding:0px;
+}
+html 
+{
+    height:100vh; /* vh visible height */
+}
+body
+{
+    height:100%;
+}
+#header 
+{
+    grid-area: header;
+}
+#menu 
+{
+    grid-area: menu;
+}
+#content 
+{
+    grid-area: content;
+}
+#sidebar 
+{
+    grid-area: sidebar;
+}
+#footer 
+{
+    grid-area: footer;
+}
+#container
+{
+    height:100%;
+    display:grid;
+    grid-template-columns: 20% 65% 15%;
+    grid-template-rows:1fr 5fr 1fr;
+    grid-template-areas: 
+    "header header header"
+   " menu content sidebar"
+   "footer footer footer";
+}
+#container>div 
+{
+    border:1px solid black;
+}

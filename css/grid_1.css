@@ -1,0 +1,31 @@
+*
+{
+    margin:0px;
+    padding:0px;
+}
+html 
+{
+    height:100vh; /* vh visible height */
+}
+body
+{
+    height:100%;
+}
+#container
+{
+    height:100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* or  */
+    /* grid-template-columns: repeat(3, 1fr); */
+
+    grid-template-rows: repeat(3,33.33%);
+}
+#container>div 
+{
+    font-size: 3em;
+    color:blue;
+    background-color:#eeeeee;
+    border:1px solid black;
+    text-align: center;
+}
