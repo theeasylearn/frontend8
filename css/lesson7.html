@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #list2 
+        {
+            background-color: aliceblue;
+            padding:10px 20px; /* 1st value is for top and bottom and 2nd value is for left and right */
+
+            list-style-type: none;
+        }
+        #list1
+        {
+            background-color:antiquewhite;
+            padding:10px 20px; /* 1st value is for top and bottom and 2nd value is for left and right */
+
+            list-style-image: url('hand.png');
+            list-style-position: inside;
+            font-size: 16px;
+            border:5px solid red;
+            outline: 5px solid blue;
+        }
+        #list1>li 
+        {
+            cursor:pointer;
+            line-height: 200%;
+        }
+    </style>
+</head>
+<body>
+    <h1>List with image</h1>
+    <ul id="list1">
+        <li>HTML</li>
+        <li>css</li>
+        <li>Bootstrap</li>
+        <li>Javascript</li>
+        <li>Jquery</li>
+        <li>HTML 5</li>
+        <li>Django</li>
+    </ul>
+    <h1>List without style</h1>
+    <ul id="list2">
+        <li>HTML</li>
+        <li>css</li>
+        <li>Bootstrap</li>
+        <li>Javascript</li>
+        <li>Jquery</li>
+        <li>HTML 5</li>
+        <li>Django</li>
+    </ul>
+</body>
+</html>
