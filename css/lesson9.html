@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul 
+        {
+            display: flex;
+            justify-content: space-around;
+
+            list-style-type: none;
+            background-color: aliceblue;
+            padding:20px 0px;
+        }
+        ul>li>a:link 
+        {
+            background-color: blue;
+            color:white;
+
+            
+        }
+        ul>li>a:visited
+        {
+            background-color: brown;
+            color:white;
+
+            
+        }
+        ul>li>a:hover 
+        {
+            background-color: yellow;
+            color:red;
+        }
+        ul>li>a:active 
+        {
+            background-color: green;
+            color:yellow;
+        }
+        ul>li>a:link , ul>li>a:visited
+        {
+            text-transform: uppercase;
+            padding:10px 20px;
+            box-shadow: 3px 3px 3px black;
+            text-decoration: none;
+        }
+        #products
+        {
+            background-color:beige;
+            padding:10px 20px;
+            border:1px solid brown;
+            display: flex;
+            gap:20px;
+            justify-content: space-between;
+        }
+        #products>div 
+        {
+            border:1px solid black;
+            padding:10px 20px;
+            background-color: brown;
+        }
+        #products   >div>h2 
+        {
+            color: white;
+            font-weight: bold;
+        }
+        #products>div:hover 
+        {
+            background-color: burlywood;
+            cursor: pointer;
+            box-shadow: 3px 3px 3px black;
+        }
+    </style>
+</head>
+<body>
+    <h1>psuedo class in html</h1> <hr>
+    <ul>
+        <li><a href="lesson1.html">Lesson 1</a></li>
+        <li><a href="lesson2.html">Lesson 2</a></li>
+        <li><a href="lesson3.html">Lesson 3</a></li>
+        <li><a href="lesson4.html">Lesson 4</a></li>
+        <li><a href="lesson5.html">Lesson 5</a></li>
+    </ul>
+    <p align="center">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat nostrum adipisci, ea libero nam laboriosam quos eveniet aspernatur quis tempora autem, fugiat quidem. Dolor, nihil natus? Inventore, commodi explicabo quidem placeat adipisci nostrum quibusdam, tempore iste magnam impedit, illo sequi. Rem nulla nostrum ipsam! <a href="lesson1.html">Privacy policy</a> Modi provident sed tempora? Asperiores deleniti corporis enim amet odio assumenda suscipit quod numquam beatae debitis neque nesciunt, quaerat minus voluptate ratione laudantium sed ipsam obcaecati similique! Minus ipsa sapiente asperiores hic earum ratione eaque autem aut pariatur quam. Eos molestiae labore sit rem, placeat ipsa quo quam <a href="lesson1.html">Privacy policy</a> assumenda optio, ducimus sapiente<a href="lesson1.html">Privacy policy</a> eveniet sunt incidunt neque.
+    </p>
+    <div id="products"> 
+        <div><h2>Product 1</h2></div>
+        <div><h2>Product 2</h2></div>
+        <div><h2>Product 3</h2></div>
+        <div><h2>Product 4</h2></div>
+    </div>
+</body>
+</html>
