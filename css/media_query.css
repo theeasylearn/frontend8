@@ -1,0 +1,49 @@
+  * {
+      margin: 0px;
+      padding: 0px;
+
+  }
+
+  /* ##Device = Desktops ##Screen = 1281px to higher resolution desktop */
+  @media (min-width: 1281px) {
+      body {
+          color: blue;
+          background-color: aliceblue;
+      }
+  }
+
+  /* ##Device = Laptops, Desktops ##Screen = B/w 1025px to 1280px*/
+  @media (min-width: 1025px) and (max-width: 1280px) {
+      /* code in this block will be applied only if device width>1025 and <1280 */
+      body {
+        color: yellow;
+        background-color: red;
+    }
+  }
+
+  /* ##Device = Tablets, Ipads (portrait) ##Screen = B/w 768px to 1024px */
+  @media (min-width: 768px) and (max-width: 1024px) {
+      /* code in this block will be applied only if device width>768 and <1024 */
+      body {
+        color: red;
+        background-color: yellow;
+    }
+  }
+
+  /* ##Device = Low Resolution Tablets,  ##Screen = B/w 481px to 767px */
+  @media (min-width: 481px) and (max-width: 767px) {
+      /* code in this block will be applied only if device width>481 and <767 */
+      body {
+        color: white;
+        background-color: blue;
+    }
+  }
+
+  /*  ##Device = Most of the Smartphones Mobiles (Portrait) ##Screen = B/w 320px to 479px */
+  @media (min-width: 320px) and (max-width: 480px) {
+      /* code in this block will be applied only if device width>320 and <480 */
+      body {
+        color: yellow;
+        background-color: green;
+    }
+  }
