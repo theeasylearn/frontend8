@@ -1,65 +1,84 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    letter-spacing: 1px;
-    font-size: 16px;
+  margin: 0px;
+  padding: 0px;
+  letter-spacing: 1px;
+  font-size: 16px;
 }
-#products
-{
-    background-color: antiquewhite;
-    padding:10px;
-    border:1px solid black;
-    display:flex;
-    flex-wrap: wrap;
-    gap: 10px;
+
+.single-product>img {
+  width: 100%; 
+  height: auto;
+  display: block;
 }
-.single-product
-{
-    /* height:200px; */
-    border:1px solid black;
-    background-color:burlywood;
+.cart-button {
+	display: block;
+	background-color: white;
+	font-size: 1.2rem;
+	margin: 10px 10px;
+	border-radius: 10px;
+	padding: 10px;
+	text-align: center;
+	text-transform: uppercase;
+  color:black;
+  text-decoration: none;
+  
 }
-  /* ##Device = Desktops ##Screen = 1281px to higher resolution desktop */
-  @media (min-width: 1281px) {
-      /* code in this block will be applied only if device width>1281 */
-      .single-product
-      {
-        width:calc(25% - 10px);
-      }
-  }
+#products {
+  background-color: antiquewhite;
+  padding: 10px;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
 
-  /* ##Device = Laptops, Desktops ##Screen = B/w 1025px to 1280px*/
-  @media (min-width: 1025px) and (max-width: 1280px) {
-      /* code in this block will be applied only if device width>1025 and <1280 */
-      .single-product
-      {
-        width:calc(33% - 10px);
-      }
-  }
+.single-product {
+  /* height:200px; */
+  border: 1px solid black;
+  background-color: burlywood;
+}
 
-  /* ##Device = Tablets, Ipads (portrait) ##Screen = B/w 768px to 1024px */
-  @media (min-width: 768px) and (max-width: 1024px) {
-      /* code in this block will be applied only if device width>768 and <1024 */
-      .single-product
-      {
-        width:calc(50% - 10px);
-      }
-  }
+/* ##Device = Desktops ##Screen = 1281px to higher resolution desktop */
+@media (min-width: 1281px) {
 
-  /* ##Device = Low Resolution Tablets,  ##Screen = B/w 481px to 767px */
-  @media (min-width: 481px) and (max-width: 767px) {
-      /* code in this block will be applied only if device width>481 and <767 */
-      .single-product
-      {
-        width:100%;
-      }
+  /* code in this block will be applied only if device width>1281 */
+  .single-product {
+    width: calc(25% - 10px);
   }
+}
 
-  /*  ##Device = Most of the Smartphones Mobiles (Portrait) ##Screen = B/w 320px to 479px */
-  @media (min-width: 320px) and (max-width: 480px) {
-      /* code in this block will be applied only if device width>320 and <480 */
-      .single-product
-      {
-        width:100%;
-      }
+/* ##Device = Laptops, Desktops ##Screen = B/w 1025px to 1280px*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  /* code in this block will be applied only if device width>1025 and <1280 */
+  .single-product {
+    width: calc(33% - 10px);
   }
+}
+
+/* ##Device = Tablets, Ipads (portrait) ##Screen = B/w 768px to 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* code in this block will be applied only if device width>768 and <1024 */
+  .single-product {
+    width: calc(50% - 10px);
+  }
+}
+
+/* ##Device = Low Resolution Tablets,  ##Screen = B/w 481px to 767px */
+@media (min-width: 481px) and (max-width: 767px) {
+
+  /* code in this block will be applied only if device width>481 and <767 */
+  .single-product {
+    width: 100%;
+  }
+}
+
+/*  ##Device = Most of the Smartphones Mobiles (Portrait) ##Screen = B/w 320px to 479px */
+@media (min-width: 320px) and (max-width: 480px) {
+
+  /* code in this block will be applied only if device width>320 and <480 */
+  .single-product {
+    width: 100%;
+  }
+}

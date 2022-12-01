@@ -3,7 +3,7 @@
       padding: 0px;
 
   }
-
+ 
   /* ##Device = Desktops ##Screen = 1281px to higher resolution desktop */
   @media (min-width: 1281px) {
       body {
